@@ -4,7 +4,7 @@ def line(array)
     puts "The line is currently empty."
   elsif array.length > 1
 
-    array.each{ |customer| array.prepend("1.")}
+    array.each{ |customer| customer.prepend("1.")}
     line = array.join
     puts "The line is currently:#{line} "
   end
