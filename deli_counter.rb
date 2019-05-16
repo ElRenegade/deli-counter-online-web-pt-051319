@@ -13,9 +13,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  couner = 1
-  for i in array
-    puts "Welcom #{name} you are number #{counter} in line."
-    counter+=1
+  if array.length < 1
+    array.unshift(name)
   end
 end
