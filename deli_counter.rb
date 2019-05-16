@@ -16,7 +16,7 @@ def take_a_number(array, name)
   if array.length < 1
     array.unshift("#{name}")
   elsif array.length > 1
-    array.unshift("#{name}")
+    array.push("#{name}")
 
   end
 end
