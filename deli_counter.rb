@@ -10,6 +10,7 @@ def line(array)
       i.prepend(" #{num}. ")
       num+=1
     end
+    line = array.join
     puts "The line is currently:#{line} "
   end
 end
