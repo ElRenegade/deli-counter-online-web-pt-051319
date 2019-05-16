@@ -6,7 +6,7 @@ def line(array)
     for i in array.length
       array.prepend(counter)
       counter+=1
-      cline = array.join(" .")
+      cline = array.join(".")
       puts "The line is currently: #{cline} "
     end
   end
