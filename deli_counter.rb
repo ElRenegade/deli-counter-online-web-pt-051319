@@ -4,8 +4,9 @@ def line(array)
     puts "The line is currently empty."
   elsif array.length > 1
     for i in array
-      array.append(counter)
-      array.join
+      array.prepend(counter)
+      cline = array.join
+      puts cline
     end
   end
 end
