@@ -8,7 +8,7 @@ def line(array)
       array.prepend(counter)
       counter+=1
       cline = array.join(" .")
-      puts "The line is currently: #{cline} "
     end
+    puts "The line is currently: #{cline} "
   end
 end
