@@ -18,5 +18,5 @@ def take_a_number(array, name)
   elsif array.length > 1
     array.push("#{name}")
   end
-  array.each_with_index{|i, index| puts "Welcome #{i}. You are number #{index} in line." }
+  array.each_with_index{|i, index| puts "Welcome, #{i}. You are number" + (index + 1).to_s + " in line." }
 end
