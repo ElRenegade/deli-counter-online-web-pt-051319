@@ -18,5 +18,5 @@ def take_a_number(array, name)
   elsif array.length > 1
     array.push("#{name}")
   end
-   puts "Welcome, #{name}. You are number " + (array.index(name) + 1).to_s + " " + "in line."
+   puts "Welcome, #{name}. You are number " + (array.index(name) + 1 ).to_s "in line."
 end
