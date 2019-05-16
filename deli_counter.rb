@@ -20,3 +20,7 @@ def take_a_number(array, name)
   end
    puts "Welcome, #{name}. You are number " + (array.index(name) + 1).to_s + " in line."
 end
+
+def now_serving(array)
+  
+end
